@@ -1,0 +1,8 @@
+[APP]
+name = FullForce
+stack_size = 4096
+apptype = FlipperAppType.EXTERNAL
+entry_point = fullforce_app_entry
+requires = [gui, storage, subghz, lfrfid, nfc, toolbox]
+sources = [fullforce_app.c]
+fap_category = Tools
